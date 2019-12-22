@@ -8,7 +8,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__fil
 # insert these lines after the definition of BASE_DIR
 BACKEND_DIR = BASE_DIR  # rename variable for clarity
 FRONTEND_DIR = os.path.abspath(
-    os.path.join(BACKEND_DIR, '..', 'frontend'))
+    os.path.join(BACKEND_DIR, 'frontend'))
 
 # modify the definition of DEBUG and ALLOWED_HOSTS
 DEBUG = os.environ.get('DJANGO_ENV') == 'development'
