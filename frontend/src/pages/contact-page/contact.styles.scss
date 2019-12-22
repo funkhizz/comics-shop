@@ -1,0 +1,29 @@
+.contact-page {
+    max-width: 100rem;
+    margin: 0rem auto;
+    padding: 3rem 0 1rem 0;
+    font-size: 1.6rem;
+    background-image: url(../../static/img/background.png);
+    height: 70rem;
+    margin-top: 5rem !important;
+
+    &__text {
+        position: relative;
+        background-color: var(--color-primary-dark);
+        color: var(--color-white);
+        font-size: 1.6rem;
+        font-weight: 700;
+        padding: 1.5rem 0;
+
+        &-form {
+            position: absolute;
+            top: -1rem;
+            right: 35rem;
+        }
+    }
+
+    &__text span {
+        margin: 1rem 0 1.5rem 3rem;
+        display: block;
+    }
+}

@@ -1,0 +1,14 @@
+.page-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-white);
+    height: 7rem;
+    background-color: var(--color-primary-dark);
+    font-weight: 700;
+    font-size: 3rem;
+    text-transform: uppercase;
+    border-right: 1rem solid var(--color-primary-light);
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+}

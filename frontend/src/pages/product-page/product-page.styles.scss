@@ -1,0 +1,29 @@
+.product__page {
+    margin-top: 5rem !important;
+    max-width: 100rem;
+    margin: 0rem auto;
+    padding: 3rem 0 1rem 0;
+    font-size: 1.6rem;
+    background-image: url(../../static/img/background.png);
+
+    &-list {
+
+    }
+}
+
+#page-numbers {
+    list-style: none;
+    display: flex;
+  }
+
+#page-numbers > li {
+margin-right: 0.3em;
+color: blue;
+user-select: none;
+cursor: pointer;
+}
+
+.pagination-div {
+  display: flex;
+  justify-content: center;
+}
