@@ -1,0 +1,48 @@
+$sub-color: grey;
+$main-color: black;
+
+.group {
+
+  position: relative;
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: block;
+  padding-left: 1.5rem;
+
+  .form-input {
+    background: none;
+    background-color: white;
+    color: $sub-color;
+    font-size: 1.8rem;
+    margin-top: 1.2rem;
+    display: block;
+    width: 65%;
+    border: none;
+    border-radius: 3px;
+    border: 2px solid var(--color-black);
+
+    &.message {
+      width: 95%;
+      height: 35vh;
+      resize: none;
+    }
+
+    &.message[type=text] {
+      padding: 1rem 1rem;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .form-input[type=text] {
+    padding: 0 1rem;
+  }
+
+  .form-input[type=email] {
+    padding: 0 1rem;
+  }
+}

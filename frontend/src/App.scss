@@ -1,0 +1,40 @@
+:root {
+  // Colors
+  --color-primary: #2b94bb;
+  --color-primary-light: #6ad0f6;
+  --color-primary-dark: #103d4e;
+  --color-pink: #ff8ec0;
+
+  --color-black: black;
+  --color-white: white;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; // 1rem = 10px, 10px/16px = 62.5%
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.App {
+  position: relative;
+}

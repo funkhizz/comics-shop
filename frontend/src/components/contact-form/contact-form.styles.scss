@@ -1,0 +1,24 @@
+.contact-form {
+    width: 50rem;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-primary-light);
+    padding-top: 2rem;
+
+    .buttons {
+        padding-right: 5rem;
+        padding-bottom: 1rem;
+        display: flex;
+        justify-content: right;
+    }
+
+    .submit-class {
+        font-size: 2rem;
+        font-weight: 700;
+        text-align: center;
+        color: var(--color-primary-dark);
+        height: 20rem;
+        width: 90%;
+    }
+}
+
