@@ -1,4 +1,4 @@
-#!/media/Work/Django-React/simple-shop/shop/backend/venv/bin/python3
+#!/media/Work/Django-React/simple-shop/shop/comics-project/venv/bin/python3
 
 # $Id: rst2html.py 4564 2006-05-21 20:44:42Z wiemann $
 # Author: David Goodger <goodger@python.org>

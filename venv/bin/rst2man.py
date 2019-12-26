@@ -1,4 +1,4 @@
-#!/media/Work/Django-React/simple-shop/shop/backend/venv/bin/python3
+#!/media/Work/Django-React/simple-shop/shop/comics-project/venv/bin/python3
 
 # Author: 
 # Contact: grubert@users.sf.net

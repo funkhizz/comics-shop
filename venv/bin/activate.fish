@@ -29,7 +29,7 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/media/Work/Django-React/simple-shop/shop/backend/venv"
+set -gx VIRTUAL_ENV "/media/Work/Django-React/simple-shop/shop/comics-project/venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH

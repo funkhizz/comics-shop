@@ -1,4 +1,4 @@
-#!/media/Work/Django-React/simple-shop/shop/backend/venv/bin/python3
+#!/media/Work/Django-React/simple-shop/shop/comics-project/venv/bin/python3
 from django.core import management
 
 if __name__ == "__main__":

@@ -26,14 +26,12 @@ class ShopPage extends React.Component {
     };
 
     getComics = async () => {
-        console.log(this.state.loading)
 
         let res = await axios.get('https://comics-djreact.herokuapp.com/comics/api/comics/');
         let data = res.data;
         const {setComics} = this.props
         setComics(data);
         this.setState({loading: false})
-        console.log(this.state.loading)
     }
 
     render() {
