@@ -6,3 +6,8 @@ export const selectAllComics = createSelector(
     [selectComics],
     (comics) => (comics ? comics.comics : [])
 )
+
+export const selectComicsIsFetching = createSelector(
+    [selectComics],
+    (comics) => comics.isFetching
+)

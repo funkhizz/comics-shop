@@ -1,0 +1,7 @@
+const ComicsActionTypes = {
+    FETCH_COMICS_START: "FETCH_COMICS_START",
+    FETCH_COMICS_SUCCESS: "FETCH_COMICS_SUCCESS",
+    FETCH_COMICS_FAILURE: "FETCH_COMICS_FAILURE"
+}
+
+export default ComicsActionTypes;
