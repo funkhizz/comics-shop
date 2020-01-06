@@ -1,5 +1,4 @@
 import ComicsActionTypes from './comics.types'
-import axios from 'axios'
 
 export const fetchComicsStart = () => ({
     type: ComicsActionTypes.FETCH_COMICS_START

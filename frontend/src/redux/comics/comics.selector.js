@@ -11,3 +11,8 @@ export const selectComicsIsFetching = createSelector(
     [selectComics],
     (comics) => comics.isFetching
 )
+
+export const selectIsComicsLoaded = createSelector(
+    [selectComics],
+    comics => !!comics.comics
+)
