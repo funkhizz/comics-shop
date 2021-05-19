@@ -19,7 +19,6 @@ function App() {
         <Route exact path='/store' component={StorePage} />
         <Route exact path='/contact' component={ContactPage} />
         <Route exact path='/checkout' component={CheckoutPage} />
-
       </Switch>
       <Footer />
     </div>

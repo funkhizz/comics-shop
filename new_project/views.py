@@ -14,6 +14,7 @@ def catchall_dev(request, upstream='http://localhost:3000'):
 
     """
     upstream_url = upstream + request.path
+    print(upstream_url)
     method = request.META['REQUEST_METHOD'].lower()
     response = getattr(requests, method)(upstream_url, stream=True)
     content_type = response.headers.get('Content-Type')

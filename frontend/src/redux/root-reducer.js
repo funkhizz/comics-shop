@@ -7,6 +7,7 @@ import storage from 'redux-persist/lib/storage'
 import comicsReducer from './comics/comics.reducer'
 import cartReducer from './cart/cart.reducer'
 import notificationReducer from './notification/notification.reducer'
+
 const persistConfig = {
     key: 'root',
     storage,
