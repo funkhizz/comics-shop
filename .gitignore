@@ -123,3 +123,4 @@ dmypy.json
 .vscode
 new_project/settings/local.py
 new_project/settings/.env
+venv
